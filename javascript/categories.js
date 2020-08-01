@@ -33,3 +33,7 @@ function menu4(){
     </div>`
   })
 }
+
+function menu7(){
+  location.href = 'login.html'
+}
