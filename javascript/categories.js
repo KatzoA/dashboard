@@ -1,9 +1,9 @@
-const categories = document.querySelector('#categories');
-const dashboard = document.querySelector('#dahsboard');
-const section = document.querySelector('#section');
+const categori = document.querySelector('#categories');
+const section4 = document.querySelector('#section');
 
-    categories.addEventListener('click', function(){
-        section.innerHTML = `
+function menu4(){
+    categori.addEventListener('click', function(){
+      section4.innerHTML = `
         <div class="cards">
       <h1 style="color: white">
         categories
@@ -31,11 +31,5 @@ const section = document.querySelector('#section');
   </h2>
 </div>
     </div>`
-    })
-    dashboard.addEventListener('click', function(){
-        `  <div class="cards">
-        <h1>
-          Accueil
-        </h1>
-      </div>` 
-})
+  })
+}

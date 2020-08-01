@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="stylesheet" href="./css/categories.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
@@ -16,41 +16,44 @@
     </label>
     <div class="sidebar">
       <header>MENU</header>
-      <a href="#" id="dahsboard" class="active">
+      <a href="#" id="dashboard"  onclick="menu1()">
         <i class="fas fa-qrcode"></i>
         <span>Dashboard</span>
       </a>
-      <a href="#">
+      <a href="#" onclick="menu2()">
         <i class="fas fa-search"></i>
         <span>Rechercher</span>
       </a>
-      <a href="#">
+      <a href="#" onclick="menu3()">
         <i class="fas fa-sliders-h"></i>
         <span>Bibliothèque</span>
       </a>
-      <a href="#" id="categories">
+
+      <a href="#" id="categories"  onclick="menu4()">
         <i class="fas fa-guitar"></i>
         <span>Catégories</span>
       </a>
-      <a href="#">
+      <a href="#" onclick="menu5()">
         <i class="fas fa-user-alt"></i>
         <span>Utilisateurs</span>
       </a>
-      <a href="#">
+      <a href="#" onclick="menu5()">
         <i class="far fa-question-circle"></i>
         <span>A propos</span>
       </a>
-      <a href="#">
+      <a href="#" id="contact" onclick="menu6()">
         <i class="far fa-envelope"></i>
         <span>Contact</span>
       </a>
-      <a href="#">
+      <a href="#" onclick="menu7()">
         <i class="fas fa-sign-in-alt"></i>
         <span>Quitter</span>
       </a>
     </div>
     <section id="section"></section>
 
-    <script src="./javascript/index.js"></script>
-  </body>
+</body>
+<script src="./javascript/dashboard.js"></script>
+<script src="./javascript/categories.js"></script>
+<script src="./javascript/contact.js"></script>
 </html>
